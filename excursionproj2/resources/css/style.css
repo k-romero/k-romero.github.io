@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: Verdana;
+  font-weight: normal;
+}
+.dlnk {
+  color: aquamarine;
+  font-size: 16px;
+}
+.supsec1 p {
+  color: gray;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 21px;
+}
+.supsec2 img {
+  padding-top: 25px;
+}
+.dlnk {
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+
+	border-style: solid;
+  border-color: aquamarine;
+	color: aquamarine;
+
+	font-family: Verdana;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+  font-weight: bold;
+}
+
+.dlnk:hover {
+	background-color: #333;
+	color: white;
+}
+
+.dlnk:before, .dlnk:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.dlnk:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.dlnk:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}

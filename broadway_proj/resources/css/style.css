@@ -25,6 +25,9 @@ body {
   font-size: 23px;
   font-weight: bold;
 }
+.supsec2 p {
+  color: gray;
+}
 .supsec2 h3 {
   font-size: 23px;
   font-weight: bold;

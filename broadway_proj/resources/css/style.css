@@ -5,6 +5,7 @@ body {
 .herosec {
   background-image: url('../images/the-flatiron-building.png');
   background-position: center;
+  background-repeat: no-repeat;
 }
 .herosec h1 {
   font-size: 70px;

@@ -1,3 +1,51 @@
+body {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
 .herosec {
   background-image: url('../images/the-flatiron-building.png');
+  background-position: center;
+}
+.herosec h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.herosec a {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.headitem {
+  font-size: 32px;
+  font-weight: bold;
+}
+.supsec1 h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+.supsec2 h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: gray;
+}
+.supsecdivd {
+  background-image: url('../images/the-flatiron-building.png');
+  background-position: center;
+  font-size: 23px;
+  font-weight: 800;
+  color: white;
+
+}
+.footer {
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+.footer a {
+  font-size: 18px;
+  color: white;
+
 }

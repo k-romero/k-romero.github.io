@@ -32,3 +32,41 @@ header li {
   color: MediumAquamarine;
   padding-left: 10px;
 }
+.content {
+  display: flex;
+  width: 1232px;
+  padding-top: 116px;
+  margin: 0 auto 78px auto;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column .large {
+  width: 630px;
+}
+.column .medium {
+  width: 300px;
+
+}
+.column .small {
+  width: 240px;
+}
+.image-content {
+  display: flex;
+  height: 300px;
+}
+.lead-story .image-content {
+  background-image: url(images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+
+}
+div {
+  border: 1px solid black;
+
+}
+body {
+  display: block;
+}

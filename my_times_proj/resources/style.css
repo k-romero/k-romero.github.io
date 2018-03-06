@@ -126,6 +126,39 @@ h2 {
   margin-top: 16px;
   line-height: 150%;
 }
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+}
+footer li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 10px;
+}
+footer a {
+  color: black;
+}
+footer nav {
+  display: inline-block;
+}
+footer .title {
+  display: inline-block;
+  padding-right: 35px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: White;
+}
+
 body {
   display: block;
   font-family: Georgia;

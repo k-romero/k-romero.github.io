@@ -50,7 +50,9 @@ header li {
 .column .medium {
   width: 300px;
 }
-
+.biteimg {
+  height: 240px;
+}
 .news-bites h3 {
   text-align: center;
   font-size: 16px;
@@ -59,7 +61,7 @@ header li {
   padding-left: 30px;
 }
 
-.news-bites li{
+.news-bites span{
   display: block;
   background-color: WhiteSmoke;
   color: DimGray;
@@ -89,8 +91,6 @@ header li {
   font-size: 40px;
   text-align: left;
 }
-
-
 .story {
   display: flex;
   flex-direction: column;

@@ -89,12 +89,7 @@ header li {
   font-size: 40px;
   text-align: left;
 }
-.small {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 240px;
-}
+
 
 .story {
   display: flex;

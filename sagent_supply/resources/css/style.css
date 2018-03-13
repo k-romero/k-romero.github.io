@@ -109,9 +109,8 @@ nav ul {
 .item-image img {
   max-width: 8em;
 }
-
-.glasses {
-  height: auto;
+.glass {
+  padding: 2em 0;
 }
 
 img {
@@ -155,7 +154,7 @@ img {
 
 footer {
   padding: 5em 0;
-  margin-top: 4em;
+  margin-top: 4em
   background-color: black;
   color: white;
 }

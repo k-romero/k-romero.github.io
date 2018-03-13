@@ -158,3 +158,20 @@ footer {
   background-color: black;
   color: white;
 }
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024) {
+  body {
+    font-size: 16px;
+  }
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+}

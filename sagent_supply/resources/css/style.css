@@ -163,15 +163,35 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width: 1024) {
+@media only screen and (max-width: 1024px) {
+
   body {
     font-size: 16px;
   }
+
   nav ul {
     display: none;
   }
+
   .mobile-nav {
     display: block;
     text-align: center;
   }
+
+  #itm{
+    width: 47%;
+  }
+
+}
+
+@media only screen and (max-width: 470px;) {
+
+  .brandhead{
+    height: 15em;
+  }
+
+  .products {
+    flex-wrap: wrap;
+  }
+
 }

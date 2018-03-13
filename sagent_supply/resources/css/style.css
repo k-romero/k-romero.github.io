@@ -3,15 +3,23 @@ body {
   font-size: 18px;
   background-color: white;
 }
+
+
 body {
   font-family: Helvetica; sans-serif;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
+
+div {
+  display: block;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
-.brandhead .container{
+
+.brandhead .container {
   display: flex;
   align-items: center;
   padding: 12px 0 12px 0.5em;
@@ -23,7 +31,7 @@ body {
   padding: 10px 20px;
 }
 
-.brandhead span{
+.brandhead span {
   padding-left: 10px;
 }
 
@@ -36,21 +44,24 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 28rem;
+  height: 25rem;
   }
+
 .headline {
   position: relative;
-  padding: 2em 3em;
+  padding: 1em 3em;
   width: 20em;
   background-color: black;
   color: white;
   top: 9em;
 }
+
 .headline h1 {
   font-size: 2em;
   line-height: 1.2em;
   margin: 0.25 0;
 }
+
 .headline h5 {
   font-size: 1em;
 }
@@ -59,9 +70,11 @@ nav {
   background-color: firebrick;
   color: white;
 }
+
 .container ul {
   background-color: firebrick;
 }
+
 li {
   display: list-item;
 }
@@ -72,4 +85,77 @@ nav ul {
   justify-content: space-between;
   display: flex;
   padding: 0.75em 0;
+}
+
+.container .products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-image {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.item{
+  width: 30%;
+}
+
+.item-image img {
+  max-width: 8em;
+}
+
+.glasses {
+  height: auto;
+}
+
+img {
+  border-style: none
+}
+
+#products{
+  display: flex;
+  margin: 3em 0 0 0;
+  justify-content: space-between;
+}
+
+.image-title {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.info .info-details {
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 1em 2em;
+}
+.info {
+  width: 35%;
+}
+.info h5 {
+  padding-left: 2.3em;
+  margin-top: .5em;
+
+}
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+footer {
+  padding: 5em 0;
+  margin-top: 4em;
+  background-color: black;
+  color: white;
 }

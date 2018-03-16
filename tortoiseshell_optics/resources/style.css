@@ -95,3 +95,8 @@ body {
 #paper {
   max-width: 3.5rem;
 }
+
+.services p {
+  margin-top:  auto;
+  margin-bottom: 0;
+}

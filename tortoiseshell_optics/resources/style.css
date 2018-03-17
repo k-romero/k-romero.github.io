@@ -18,6 +18,11 @@ body {
   width: 100%;
 }
 
+#brandnav {
+  position: relative;
+  top: 0;
+}
+
 .brandnav {
   background-color: cadetblue;
   display: flex;
@@ -102,16 +107,19 @@ body {
   margin-bottom: 0;
 }
 
+#subsec {
+  margin: auto;
+}
+
 .subsec {
   display: flex;
-  justify-content: space-around;
-  width: 960px;
-  margin: auto;
+  justify-content: center;
 }
 
 .subsec-item {
   width: 35%;
-  padding-right: 5%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
 }
 
 .subsec-item p {
@@ -126,6 +134,24 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
   color: white;
-  padding: 0.5rem 1.25rem;
-  width: 10rem;
+  padding: 1rem 1.25rem;
+  width: 11.25rem;
+}
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  justify-content: center;
+}
+
+#footer {
+  margin: auto;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }

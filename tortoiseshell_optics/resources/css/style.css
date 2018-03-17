@@ -8,7 +8,7 @@ body {
 }
 
 .brandhead {
-  background-image: url(images/glasses-bg.png);
+  background-image: url(../images/glasses-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

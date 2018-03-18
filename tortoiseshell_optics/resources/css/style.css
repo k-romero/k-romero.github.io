@@ -155,3 +155,28 @@ footer img {
   margin-left: 2rem;
   margin-right: 1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+
+  .container {
+    width: 100%;
+  }
+
+  #brandcontainer {
+    padding-top: 0rem;
+  }
+
+  .brandhead {
+    height: 22rem;
+  }
+
+  .slogandiv {
+    padding-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .slogan {
+    font-size: 1.33rem;
+    padding: 2rem 4rem;
+  }
+}

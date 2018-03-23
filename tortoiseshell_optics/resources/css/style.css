@@ -156,8 +156,87 @@ footer img {
   margin-right: 1rem;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1024px;) {
   .brandnav {
     background-color: red;
+=======
+.menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container {
+    width: 100%;
+  }
+
+  #brandcontainer {
+    padding-top: 0rem;
+  }
+
+  .brandhead {
+    height: 22rem;
+  }
+
+  .slogandiv {
+    padding-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .slogan {
+    font-size: 1.33rem;
+    padding: 2rem 4rem;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .container {
+  width: 100%;
+  }
+  .list {
+    display: none;
+  }
+  .brandlogo h5 {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .slogandiv {
+    width: 100%;
+    padding-top: 9rem;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .slogan {
+    padding: 0.75rem 4rem;
+    font-size: 1rem;
+  }
+
+  .brandhead {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .services {
+    flex-wrap: wrap;
+  }
+
+  .service p {
+    font-size: 0.77rem;
+  }
+
+  .service {
+    padding: 1.54rem auto;
+>>>>>>> 8dabb60c9c750ceec237b36f6cc0fad439f0a871
   }
 }

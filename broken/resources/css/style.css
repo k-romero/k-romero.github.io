@@ -295,6 +295,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  padding-bottom: .5rem;
 }
 
 #filters-section .content h3 {
@@ -351,11 +352,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;

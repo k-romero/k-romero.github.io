@@ -156,6 +156,11 @@ footer img {
   margin-right: 1rem;
 }
 
+<<<<<<< HEAD
+@media (max-width: 1024px;) {
+  .brandnav {
+    background-color: red;
+=======
 .menu {
   display: none;
 }
@@ -232,5 +237,6 @@ footer img {
 
   .service {
     padding: 1.54rem auto;
+>>>>>>> 8dabb60c9c750ceec237b36f6cc0fad439f0a871
   }
 }

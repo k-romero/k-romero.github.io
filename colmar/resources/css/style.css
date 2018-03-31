@@ -45,7 +45,7 @@ header .container {
 .navbrand {
   display: flex;
   align-items: center;
-  padding: 1rem 0rem 1rem 1.5rem;
+  padding: 1rem 0rem 1rem 1rem;
 }
 
 .navbrand img {
@@ -130,5 +130,5 @@ header .container {
 
 .tagline h4 {
   padding-top: 1rem;
-  
+
 }

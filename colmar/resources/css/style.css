@@ -88,7 +88,7 @@ header .container {
 /* begin main content */
 
 .container {
-  width: 1050px;
+  width: 1080px;
   margin: auto;
 }
 
@@ -110,6 +110,7 @@ header .container {
 
 .leftsec img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .rightsec {
@@ -156,4 +157,24 @@ header .container {
   background-color: #BABABA;
   border: .5px solid #797979;
   color:  #797979;
+}
+
+/* practicesec */
+
+.information .container {
+  display: flex;
+}
+
+#leftsec {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-img img{
+  width: 35%;
+  padding: .5rem 1rem;
+}
+
+#info-item-lead {
+  padding-top: 24px;
 }

@@ -56,12 +56,12 @@ header .container {
 .navbrand span {
   font-size: 1.2rem;
   font-weight: 100;
-  color: DimGray;
+  color: #E6C72A;
 }
 
 #navstrng {
   font-weight: bold;
-  color: black;
+  color: DimGray;
   padding-right: 2px;
 }
 
@@ -79,6 +79,11 @@ header .container {
   font-size: 1.2rem;
 }
 
+.navlist li a:hover{
+  color: #E6C72A;
+}
+
+
 /* end nav sec */
 /* begin main content */
 
@@ -92,6 +97,7 @@ header .container {
 .mainbanner {
   background-color: #DCDCDC;
   margin: 0 auto;
+  border-top: .5px solid #E6C72A;
 }
 
 .mainbanner .container {
@@ -136,13 +142,15 @@ header .container {
 
 .tagline a{
   background-color: #797979;
-  color: white;
+  color: #E6C72A;
   font-size: 1.2rem;
+  font-weight: bold;
   padding: .7rem 0;
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
   border: 0px solid black;
+  transition: all 50ms ease 50ms;
 }
 
 .tagline a:hover{

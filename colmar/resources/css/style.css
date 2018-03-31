@@ -170,11 +170,32 @@ header .container {
   flex-direction: column;
 }
 
-.info-img img{
+.info-img{
   width: 35%;
   padding: .5rem 1rem;
 }
 
+.info-img img {
+  width: 100%;
+}
+
 #info-item-lead {
   padding-top: 24px;
+}
+
+.info-item {
+  display: flex;
+
+
+}
+
+.info-copy {
+  margin: 0;
+  width: 65%;
+}
+
+.info-copy h3{
+  font-family: Roboto;
+  font-size: 1.5rem;
+
 }

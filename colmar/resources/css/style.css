@@ -171,8 +171,8 @@ header .container {
 }
 
 .info-img{
-  width: 35%;
-  padding: .5rem 1rem;
+  width: 40%;
+  padding: 1rem 1rem;
 }
 
 .info-img img {
@@ -181,7 +181,7 @@ header .container {
 }
 
 #info-item-lead {
-  padding-top: 24px;
+  padding-top: 1rem;
 }
 
 .info-item {
@@ -192,7 +192,8 @@ header .container {
 
 .info-copy {
   margin: 0;
-  width: 65%;
+  width: 60%;
+  padding-top: 12px;
 }
 
 .info-copy h3{
@@ -200,13 +201,15 @@ header .container {
   font-weight: bold;
   font-size: 1.5rem;
   color: #5b5b57;
-  border-bottom: .5px dotted #E6C72A;
+  border-bottom: 1.5px dotted #E6C72A;
 }
 
 .info-copy p {
   font-family: Roboto;
-  padding-top: 3px;
-  padding-bottom: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: DimGray;
+  line-height: 1.2;
 }
 
 .info-copy a {
@@ -222,10 +225,67 @@ header .container {
   background-color: black;
 }
 
+#info-item-highlight {
+  background-color: #DCDCDC;
+}
+
+#info-item-highlight h3{
+  border-bottom: 1.5px dotted white;
+}
+
 .information h1 {
   font-family: Roboto;
   font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 900;
-  padding: 32px 0px;
+  padding: .5rem 0px;
+}
+
+.information .quote {
+  font-family: Lato;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  color: DimGray;
+}
+
+.quoteauth {
+  font-size: 12px;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* learningsec */
+
+.learningsec {
+  margin: 0 auto;
+  padding-top: 2rem;
+  background-color: #DCDCDC;
+}
+
+.learningsec h1{
+  font-family: Roboto;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 900;
+  text-align: center;
+}
+
+.container .subjects-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subjects-gallery {
+  padding: 1rem 1rem;
+}
+
+.subject {
+  width: 28%;
+  padding: 1rem;
+}
+
+.subject img{
+  width: 100%;
 }

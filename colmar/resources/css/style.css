@@ -177,6 +177,7 @@ header .container {
 
 .info-img img {
   width: 100%;
+  border-radius: 5px;
 }
 
 #info-item-lead {
@@ -185,8 +186,8 @@ header .container {
 
 .info-item {
   display: flex;
-
-
+  align-items: center;
+  max-height: auto;
 }
 
 .info-copy {
@@ -196,6 +197,35 @@ header .container {
 
 .info-copy h3{
   font-family: Roboto;
+  font-weight: bold;
   font-size: 1.5rem;
+  color: #5b5b57;
+  border-bottom: .5px dotted #E6C72A;
+}
 
+.info-copy p {
+  font-family: Roboto;
+  padding-top: 3px;
+  padding-bottom: 1rem;
+}
+
+.info-copy a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: ;
+  padding: 2px;
+}
+
+.info-copy a:hover{
+  color: #E6C72A;
+  background-color: black;
+}
+
+.information h1 {
+  font-family: Roboto;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 900;
+  padding: 32px 0px;
 }

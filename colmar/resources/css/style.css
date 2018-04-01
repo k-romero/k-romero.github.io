@@ -271,21 +271,41 @@ header .container {
   text-align: center;
 }
 
-.container .subjects-gallery {
+.subjects-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.subjects-gallery {
-  padding: 1rem 1rem;
-}
 
 .subject {
-  width: 28%;
-  padding: 1rem;
+  width: 32%;
+  margin-bottom: 20px;
+  height: 16rem;
+  background-color: white;
 }
 
 .subject img{
   width: 100%;
 }
+
+.course-info{
+  padding-left: 1rem;
+}
+
+.courses {
+  padding-top: .5rem;
+}
+
+.courses ul {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.courses

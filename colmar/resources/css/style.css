@@ -286,8 +286,9 @@ header .container {
 .subject {
   width: 32%;
   margin-bottom: 20px;
-  height: 16rem;
+  height: 18.5rem;
   background-color: white;
+  /* border: 1px solid Dimgray; */
 }
 
 .subject img{
@@ -298,14 +299,129 @@ header .container {
   padding-left: 1rem;
 }
 
+.course-info h3{
+  font-family: Lato;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.course-info h5{
+  font-family: Roboto;
+  font-size: 1rem;
+  color: Dimgray;
+  font-weight: lighter;
+  padding: .5rem 0rem;
+}
+
 .courses {
-  padding-top: .5rem;
+  /* padding-top: .5rem; */
 }
 
 .courses ul {
   list-style: none;
   display: inline-flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
-.courses
+.courses ul li {
+  padding: 2.5px 2.5px;
+}
+
+.courses ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #a5a5a5;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.courses ul li a:hover{
+  background-color: #E6C72A;
+  color: black;
+}
+
+/* thesis-sec */
+
+.thesis-sec .container{
+  display: flex;
+}
+
+.thesis-sec h1{
+  text-align: center;
+  padding: 2rem 0rem;
+  font-family: Roboto;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.leftsec video {
+  width: 100%
+}
+
+#thesis-info-img-lead {
+  padding-top: 0rem;
+}
+
+#leftsec-thesis {
+  padding-top: 0rem;
+}
+
+#rightsec-thesis {
+  padding-top: 0rem;
+}
+
+#leftsec-thesis p {
+  font-family: Lato;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  color: DimGray;
+  padding-top: 8px;
+}
+
+#leftsec-thesis h3 {
+  font-family: Lato;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #E6C72A;
+  padding-top: 1rem;
+}
+
+/* footer */
+
+footer {
+  border-top: 1px solid #DCDCDC;
+  background-color: white;
+  height: 3.5rem;
+}
+
+footer .container {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .75rem;
+}
+
+.footer-nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+footer .container p {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: DimGray;
+  font-size: .75rem;
+}
+
+.footer-nav a{
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 1rem;
+  color: DimGray;
+  font-size: .75rem;
+}

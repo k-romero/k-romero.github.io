@@ -88,7 +88,8 @@ header .container {
 /* begin main content */
 
 .container {
-  width: 1080px;
+  max-width: 1080px;
+  /* min-width: 900px; */
   margin: auto;
 }
 
@@ -104,7 +105,7 @@ header .container {
 }
 
 .leftsec {
-  width: 60%;
+  max-width: 60%;
   padding: 32px 24px;
 }
 
@@ -114,7 +115,7 @@ header .container {
 }
 
 .rightsec {
-  width: 40%;
+  max-width: 40%;
 }
 
 .tagline {
@@ -125,6 +126,7 @@ header .container {
   margin-top: 6rem;
   margin-right: 3.75rem;
   padding-left: 1rem;
+  flex-shrink: 1;
 }
 
 .tagline h1 {
@@ -159,7 +161,38 @@ header .container {
   color:  #797979;
 }
 
-/* practicesec */
+/* mainbanner queries */
+@media only screen and (max-width: 900px) {
+  .mainbanner .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftsec {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .rightsec {
+    max-width: 90%;
+  }
+
+  .tagline {
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .tagline h4 {
+    padding-bottom: 1rem;
+  }
+
+  .tagline a{
+    margin-bottom: 1rem;
+  }
+}
+
+/* informationsec */
 
 .information .container {
   display: flex;
@@ -255,6 +288,38 @@ header .container {
   padding-bottom: 2rem;
 }
 
+/* informationsec queries */
+
+@media only screen and (max-width:900px) {
+  .information .container {
+    flex-direction: column;
+  }
+
+  #leftsec {
+    text-align: center;
+  }
+
+  #rightsec {
+    max-width: 100%;
+  }
+
+  #info-item-lead {
+    padding-top: 0;
+  }
+
+  .quoteauth {
+    padding-bottom: 0;
+  }
+
+  .info-item {
+    border: .5px solid #dcdcdc;
+  }
+
+  #info-item-highlight {
+    background-color: #E6C72A;
+  }
+}
+
 /* learningsec */
 
 .learningsec {
@@ -277,18 +342,17 @@ header .container {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto;
   padding: 2rem;
 }
 
 
 .subject {
-  width: 32%;
+  max-width: 32%;
   margin-bottom: 20px;
   height: 18.5rem;
   background-color: white;
-  /* border: 1px solid Dimgray; */
 }
 
 .subject img{
@@ -312,10 +376,6 @@ header .container {
   color: Dimgray;
   font-weight: lighter;
   padding: .5rem 0rem;
-}
-
-.courses {
-  /* padding-top: .5rem; */
 }
 
 .courses ul {
@@ -342,6 +402,42 @@ header .container {
   background-color: #E6C72A;
   color: black;
 }
+
+.courses {
+  padding-bottom: 1rem;
+}
+
+/* learningsec queries */
+
+@media only screen and (max-width: 900px) {
+
+.subjects-gallery {
+  max-width: 100%;
+}
+
+  .subject {
+    max-width: 45%;
+    min-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 580px){
+
+  .subjects-gallery {
+    justify-content: center;
+  }
+
+  .subject {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .courses {
+    padding-bottom: 1rem;
+  }
+}
+
+
 
 /* thesis-sec */
 
@@ -389,6 +485,19 @@ header .container {
   font-weight: bold;
   color: #E6C72A;
   padding-top: 1rem;
+}
+
+/* thesis-sec queries */
+
+@media only screen and (max-width: 900px){
+
+  .thesis-sec .container {
+    flex-direction: column;
+  }
+
+  #rightsec-thesis {
+    max-width: 100%;
+  }
 }
 
 /* footer */

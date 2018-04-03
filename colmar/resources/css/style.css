@@ -83,22 +83,21 @@ header .container {
   color: #E6C72A;
 }
 
-/* end nav sec */
+/* navsec queries */
+
+@media only screen and (max-width:480px) {
+
+  nav {
+    display: none;
+  }
+
+}
 
 /* begin main content */
 
 .container {
   max-width: 1080px;
   margin: auto;
-}
-
-/* container queries */
-
-@media only screen and (max-width: 900) {
-
-  .container {
-    max-width: 100%;
-  }
 }
 
 /* bannersec */
@@ -179,7 +178,6 @@ header .container {
 
   .leftsec {
     max-width: 100%;
-    margin: auto;
   }
 
   .rightsec {

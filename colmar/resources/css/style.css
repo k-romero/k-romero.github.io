@@ -83,13 +83,12 @@ header .container {
   color: #E6C72A;
 }
 
-
 /* end nav sec */
+
 /* begin main content */
 
 .container {
   max-width: 1080px;
-  /* min-width: 900px; */
   margin: auto;
 }
 
@@ -162,6 +161,7 @@ header .container {
 }
 
 /* mainbanner queries */
+
 @media only screen and (max-width: 900px) {
   .mainbanner .container {
     flex-direction: column;

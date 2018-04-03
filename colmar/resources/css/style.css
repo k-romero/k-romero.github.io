@@ -92,6 +92,15 @@ header .container {
   margin: auto;
 }
 
+/* container queries */
+
+@media only screen and (max-width: 900) {
+
+  .container {
+    max-width: 100%;
+  }
+}
+
 /* bannersec */
 
 .mainbanner {

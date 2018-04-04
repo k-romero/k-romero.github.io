@@ -1,3 +1,18 @@
+/*MSG TO REVIEWERS*/
+
+/*This was by far the most progress I've made in terms of learning and overcoming
+obstacles...I took the liberty of challenging myself a bit more specifically
+with the 'Start Learning' section. I wanted to see if I could execute an idea
+I had with making the courses links and then instead of rendering this section
+as just title links I decided to keep them whole which led to me to the problem
+of making sure they all fit within their respective containers no matter the
+the size of the screen. I do hope this is alright :) Additionally I wish I had
+slightly more time with this project to keep adding design and color to make it
+a bit more lively. Anyways please lmk if this is okay...I'd appreciate any
+advice on organizing the css code, I feel like mine is a bit all over the place.
+
+cheers!*/
+
 html,
 body {
   font-size: 16px;
@@ -83,13 +98,34 @@ header .container {
   color: #E6C72A;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /* navsec queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
 
-  nav {
+nav.navlist {
     display: none;
   }
+
+.navbrand {
+    display: none;
+}
+
+nav.desktop {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 64px;
+}
+
+
 
 }
 
@@ -195,7 +231,30 @@ header .container {
   }
 
   .tagline a{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .mainbanner {
+    border-top: 10px solid #E6C72A;
+    border-bottom: 10px solid #E6C72A;
+  }
+
+  .leftsec {
+    padding: 0 0 32px 0;
+  }
+
+  .leftsec img {
+    border-radius: 0;
+  }
+
+  .tagline {
+    text-align: left;
+  }
+
+  .tagline h1 {
+    font-size: 2.25rem;
   }
 }
 
@@ -295,6 +354,10 @@ header .container {
   padding-bottom: 2rem;
 }
 
+.info-mobile {
+  display: none;
+}
+
 /* informationsec queries */
 
 @media only screen and (max-width:900px) {
@@ -324,6 +387,49 @@ header .container {
 
   #info-item-highlight {
     background-color: #E6C72A;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #leftsec {
+    display: none;
+  }
+
+  .info-desktop {
+    display: none;
+  }
+
+  .info-mobile {
+    display: flex;
+    width: 100%;
+  }
+
+  .info-img {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .info-img img {
+    border-radius: 0;
+  }
+
+  .info-item {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+  }
+
+  #info-mobile-highlight {
+    padding: 0;
+  }
+
+  .info-copy {
+    padding-left: 16px;
+    padding-bottom: 16px;
+  }
+
+  #info-item-lead {
+    padding-top: 16px;
   }
 }
 
@@ -432,15 +538,20 @@ header .container {
 
   .subjects-gallery {
     justify-content: center;
+    padding: 1rem;
   }
 
   .subject {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
   }
 
   .courses {
     padding-bottom: 1rem;
+  }
+
+  .learningsec h1 {
+    font-size: 2.25rem;
   }
 }
 
@@ -507,6 +618,26 @@ header .container {
   }
 }
 
+@media only screen and (max-width: 580px) {
+  #rightsec-thesis {
+    display: none;
+  }
+
+  .thesis-mobile {
+    display: none;
+  }
+
+  .thesis-sec h1 {
+    font-size: 2.25rem;
+  }
+
+  .thesis-sec {
+    border-top: 5px solid #E6C72A;
+
+  }
+
+}
+
 /* footer */
 
 footer {
@@ -516,7 +647,7 @@ footer {
 }
 
 footer .container {
-  display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: .75rem;
@@ -540,4 +671,28 @@ footer .container p {
   padding-right: 1rem;
   color: DimGray;
   font-size: .75rem;
+}
+
+
+/* footer queries */
+
+@media only screen and (max-width: 580px) {
+
+  footer {
+    background-color: #E6C72A;
+  }
+
+  footer.container {
+    display: none;
+  }
+
+  footer nav {
+    display: none;
+  }
+
+  .copyright {
+    display: block;
+    margin: auto;
+    padding-top: .5rem;
+  }
 }

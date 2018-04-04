@@ -17,7 +17,7 @@
           <img src="resources/images/ic-logo.svg" alt="colmar logo">
           <span id="navstrng">COLMAR</span><span>ACADEMY</span>
         </div>
-        <nav>
+        <nav class="desktop">
           <ul class="navlist">
             <li><a href="#">On Campus</a></li>
             <li><a href="#">Courses</a></li>
@@ -25,6 +25,12 @@
             <li><a href="#">Login</a></li>
           </ul>
         </nav>
+      </div>
+      <div class="mobile-nav">
+          <a href="#"><img src="resources/images/ic-logo.svg" alt="colmar logo"></a>
+          <a href="#"><img src="resources/images/ic-on-campus.svg" alt="chair icon"></a>
+          <a href="#"><img src="resources/images/ic-online.svg" alt="desktop icon"></a>
+          <a href="#"><img src="resources/images/ic-login.svg" alt="person icon"></a>
       </div>
     </header>
 
@@ -58,7 +64,8 @@
         <div class="rightsec" id="rightsec">
           <div class="info-item" id="info-item-lead">
             <div class="info-img">
-              <img src="resources/images/information-orientation.jpg" alt="students walking">
+              <img class="info-desktop" src="resources/images/information-orientation.jpg" alt="students walking">
+              <img class="info-mobile" src="resources/images/information-orientation-mobile.jpg" alt="students walking">
             </div>
             <div class="info-copy">
               <h3>Orientation date</h3>
@@ -68,7 +75,8 @@
           </div>
           <div class="info-item">
             <div class="info-img">
-              <img src="resources/images/information-campus.jpg" alt="classroom with globe">
+              <img class="info-desktop" src="resources/images/information-campus.jpg" alt="classroom with globe">
+              <img class="info-mobile" src="resources/images/information-campus-mobile.jpg" alt="classroom with globe">
             </div>
             <div class="info-copy">
               <h3>Our Campus</h3>
@@ -77,8 +85,9 @@
             </div>
           </div>
           <div class="info-item" id="info-item-highlight">
-            <div class="info-img">
-              <img src="resources/images/information-guest-lecture.jpg" alt="professor portrait">
+            <div class="info-img" id="info-mobile-highlight">
+              <img class="info-desktop"src="resources/images/information-guest-lecture.jpg" alt="professor portrait">
+              <img class="info-mobile"src="resources/images/information-guest-lecture-mobile.jpg" alt="professor portrait">
             </div>
             <div class="info-copy">
               <h3>Our guest lecture</h3>
@@ -190,13 +199,13 @@
     <!--thesis-sec-->
 
     <div class="thesis-sec">
-      <h1>Thesis Exhibit</h1>
+      <h1>Thesis Exhibits</h1>
       <div class="container">
         <div class="leftsec" id="leftsec-thesis">
           <video src="resources/videos/thesis.mp4" autoplay muted loop>
           </video>
-          <h3>Reimagine urban</h3>
-          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+          <h3 class="thesis-mobile">Reimagine urban</h3>
+          <p class="thesis-mobile">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
         <div class="rightsec" id="rightsec-thesis">
           <div class="info-item">
@@ -225,7 +234,7 @@
 
     <footer>
       <div class="container">
-        <p>© 2016 Colmar Academy. All rights reserved</p>
+        <p class="copyright">© 2016 Colmar Academy. All rights reserved</p>
         <nav class="footer-nav">
           <a href="#">Terms</a>
           <a href="#">Privacy</a>

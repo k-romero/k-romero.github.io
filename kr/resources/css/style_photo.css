@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   text-align: center;
 }
-.brandcntnr {
+.brand {
   background-color: black;
   border-bottom: 1px solid lightgray;
   display: flex;
@@ -19,8 +19,9 @@ body {
 }
 
 .logo span {
-  padding-left: 1rem;
-  color: lightgray;
+  padding-left: .5rem;
+  color: brown;
+  opacity: 0.8;
 }
 
 .krlogo {

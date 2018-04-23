@@ -31,3 +31,32 @@ img {
   background-color: inherit;
   color: #399bd1;
 }
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+}
+
+.background-bike {
+  background-image: url("../resources/images/jumbotron-bike.jpg");
+}
+
+.background-beer {
+  background-image: url("../resources/images/jumbotron-beer.jpg");
+}
+
+.background-flowers {
+  background-image: url("../resources/images/jumbotron-flowers.jpg");
+}
+
+.background-duffel {
+  background-image: url("../resources/images/jumbotron-duffel.jpg");
+}

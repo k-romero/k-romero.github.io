@@ -24,6 +24,11 @@ img {
   width: 100%;
 }
 
+ol, ul {
+  list-style: none;
+
+}
+
 /* BootStrap Overrides */
 
 .navbar-default .navbar-nav > .active > a,
@@ -58,6 +63,7 @@ img {
   font-weight: 600;
 }
 
+
 /* Jumbotron */
 
 .jumbotron {
@@ -68,6 +74,11 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 
 }
 
@@ -87,9 +98,94 @@ img {
   background-image: url("../resources/images/jumbotron-duffel.jpg");
 }
 
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
 .relative-wrapper {
   position: relative;
   top: -16rem;
   width: 100%;
   text-align: center;
+}
+
+/* Featured Project */
+
+.featured-project {
+  margin-top: -8.5rem; /* To account for relatively positioned button */
+}
+
+.featured-project .image-container {
+  height: 19rem;
+  margin-top: 20px; /* To match bootstrap header margins */
+}
+
+/* Project Image Containers */
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.product-categories {
+  padding-left: 0;
+}
+
+/* Projects Section */
+
+.projects h2{
+  margin-bottom: 20px;
+}
+
+.project .image-container {
+  height: 12rem;
+}
+
+.project h4{
+  font-weight: bold;
+  padding: .75rem 0;
+}
+
+.project_auth {
+  font-style: italic;
+}
+
+/* Learn More Sec */
+
+.learn-more {
+  background-color: #f3f3f3;
+  padding:5.2rem 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.learn-more h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: .5rem;
+}
+
+.learn-more p {
+  max-width: 42rem;
+  margin: auto;
 }

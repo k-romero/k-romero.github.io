@@ -1,0 +1,50 @@
+
+/* Universal Styles */
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/* Bootstrap Overrides */
+
+.jumbotron {
+  margin-top: 50px; /* For fixed navbar */
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-7/img-clear-morning.jpg"); /* Need image that is 286px tall, maybe also wider */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-header {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+#showcase {
+  margin-top: 50px;
+}
+
+/* About Section - Grid System */
+
+.left-col {
+  font-size: 52px;
+}
+
+.right-col {
+  font-size: 24px;
+}
+
+/* Contact - Grid System */
+
+#contact p {
+  font-size: 24px;
+}

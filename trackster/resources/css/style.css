@@ -49,3 +49,18 @@ body {
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
+
+/* Track Section */
+
+.track {
+  display: flex;
+  padding: .6rem;
+  border-bottom: 1px solid #cccccc;
+  line-height: 1;
+}
+
+
+.track div {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+html,
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  background-color: darkgreen;
+}
+
+img {
+  width: 100%;
+}
+
+.banner {
+  margin-top: 5rem;
+}
+
+h3 {
+  color: green;
+}
+
+a {
+  color: green;
+}

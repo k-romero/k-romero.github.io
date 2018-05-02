@@ -2,21 +2,16 @@ html,
 body {
   font-size: 16px;
   font-family: Helvetica, sans-serif;
-  background-color: darkgreen;
+  background-color: #416d21;
 }
 
-img {
-  width: 100%;
+.navbar-custom {
+  background-color: #fdf5e6;
+  border-bottom: 1px solid darkgrey;
 }
 
-.banner {
-  margin-top: 5rem;
-}
-
-h3 {
-  color: green;
-}
-
-a {
-  color: green;
+.navbrand {
+  padding-right: 2rem;
+  font-family: serif;
+  font-weight: bold;
 }

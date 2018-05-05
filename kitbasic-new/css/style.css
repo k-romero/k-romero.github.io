@@ -5,8 +5,15 @@ font-family: Montserrat, serif;
 line-height: 1.4;
 }
 /*----NAV----*/
-.brand-logo{
+/* .brand-logo{
   justify-content: center;
+} */
+.brandimgdiv{
+  max-width: 200px;
+}
+
+.brandimg {
+  width: 100%;
 }
 
 .topnav-div{
@@ -27,6 +34,7 @@ line-height: 1.4;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   color: white;
   text-shadow:
     -1px -1px 0 #000,
@@ -34,6 +42,11 @@ line-height: 1.4;
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+.jmbtrn{
+  opacity: .8;
+}
+
 
 .background-a{
   background-image: url("../resources/images/headline/inn-entrance.jpg");

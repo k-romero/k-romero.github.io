@@ -2,7 +2,7 @@ html,
 body {
 font-size: 16px;
 font-family: Montserrat, serif;
-line-height: 1.2;
+line-height: 1.4;
 }
 /*----NAV----*/
 .brand-logo{
@@ -15,6 +15,7 @@ line-height: 1.2;
 
 .topnav a{
   color: grey;
+  font-size: .9rem;
 }
 
 /*----Jumbotron----*/
@@ -52,4 +53,31 @@ line-height: 1.2;
 
 .background-e{
   background-image: url("../resources/images/headline/yellow-room.jpg");
+}
+
+.jumbo-copy {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 600px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.jumbo-copy h5 {
+  font-family: Montserrat, sans-serif;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.jumbo-copy p {
+  font-family: Merriweather, serif;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.book-a-room{
+  background-color: darkred;
+  color: cornsilk;
 }

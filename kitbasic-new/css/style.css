@@ -42,8 +42,16 @@ p {
     1px 1px 0 #000;
 }
 
+.jmbtrn-div {
+  background-color: cornsilk;
+}
+
 .jmbtrn{
   opacity: .8;
+}
+
+.jumbotron-copy {
+  padding-top: 12rem;
 }
 
 
@@ -70,11 +78,11 @@ p {
 .jumbo-copy {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   max-width: 600px;
   border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
 }
 
 .jumbo-copy h5 {
@@ -95,9 +103,19 @@ p {
 
 /*jumbotron media queries*/
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 600px) {
   .jmbtrn {
-    height: 20rem;
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .jmbtrn {
+    height: 15rem;
+  }
+
+  .jumbotron-copy {
+    padding-top: 4rem;
   }
 }
 

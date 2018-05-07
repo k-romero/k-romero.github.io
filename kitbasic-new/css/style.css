@@ -29,7 +29,6 @@ p {
 
 .jmbtrn {
   height: 30rem;
-  padding-top: 10rem;
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -69,8 +68,8 @@ p {
 }
 
 .jumbo-copy {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-bottom: 2rem;
   text-align: center;
   max-width: 600px;
@@ -80,24 +79,20 @@ p {
 
 .jumbo-copy h5 {
   font-family: Montserrat, sans-serif;
-  font-size: .9rem;
+  font-size: .8rem;
   font-weight: bold;
 }
 
 .jumbo-copy p {
   font-family: Merriweather, serif;
-  font-size: .8rem;
+  font-size: .9rem;
   font-style: italic;
+  font-weight: 300;
+  line-height: 1.4rem;
+  padding-top: .7rem;
+  padding-bottom: .6rem;
 }
 
-.book-a-room{
-  background-color: darkred;
-  color: cornsilk;
-}
-
-.btn-success {
-  background-color: #98db1c;
-}
 /*jumbotron media queries*/
 
 @media only screen and (max-width: 580px) {
@@ -112,15 +107,17 @@ p {
   text-align: center;
   font-family: Merriweather, serif;
   padding-bottom: 3rem;
+  padding-top: 1.5rem;
   border-bottom: 1px solid grey;
 }
 
 .event {
-  padding-top: 1.2rem;
+  padding-top: 1.5rem;
 }
 
 .events h4 {
   font-size: 1rem;
+  padding-bottom: 1.5rem;
 }
 .event-copy {
   margin-left: 12px;
@@ -165,5 +162,21 @@ p {
 
 .main-footer-sec {
   text-align: center;
-  padding-top: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: .8rem;
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.main-footer-sec button {
+  margin-bottom: 1.5rem;
+}
+
+.footer-links {
+}
+
+.footer-links a{
+  color: #b72c05;
 }

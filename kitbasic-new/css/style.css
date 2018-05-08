@@ -44,6 +44,7 @@ p {
 
 .jmbtrn-div {
   background-color: cornsilk;
+  padding: 0;
 }
 
 .jmbtrn{
@@ -82,7 +83,7 @@ p {
   margin-bottom: 2rem;
   text-align: center;
   max-width: 600px;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid grey;
 }
 
 .jumbo-copy h5 {
@@ -126,7 +127,6 @@ p {
   font-family: Merriweather, serif;
   padding-bottom: 3rem;
   padding-top: 1.5rem;
-  border-bottom: 1px solid grey;
 }
 
 .event {
@@ -188,11 +188,12 @@ p {
   line-height: 1rem;
 }
 
-.main-footer-sec button {
-  margin-bottom: 1.5rem;
+.main-footer-sec {
+  background-color: cornsilk;
 }
 
-.footer-links {
+.main-footer-sec button {
+  margin-bottom: 1.5rem;
 }
 
 .footer-links a{

@@ -17,7 +17,7 @@ p {
 }
 
 .topnav-div{
-  background-color: cornsilk;
+  background-color: #d5f298;
 }
 
 .topnav a{
@@ -45,6 +45,7 @@ p {
 .jmbtrn-div {
   background-color: cornsilk;
   padding: 0;
+  height: 30rem;
 }
 
 .jmbtrn{
@@ -84,6 +85,7 @@ p {
   text-align: center;
   max-width: 600px;
   border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .jumbo-copy h5 {
@@ -108,10 +110,18 @@ p {
   .jmbtrn {
     height: 10rem;
   }
+
+  .jmbtrn-div{
+    height: 10rem;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   .jmbtrn {
+    height: 15rem;
+  }
+
+  .jmbtrn-div{
     height: 15rem;
   }
 
@@ -189,7 +199,7 @@ p {
 }
 
 .main-footer-sec {
-  background-color: cornsilk;
+  background-color: #d5f298;
 }
 
 .main-footer-sec button {
@@ -199,3 +209,34 @@ p {
 .footer-links a{
   color: #b72c05;
 }
+
+/*END FIRST PAGE CSS*/
+
+/*BEGIN ROOMS PAGE*/
+
+.rooms {
+  padding: 0;
+  margin: 2rem auto;
+}
+
+.room1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
+}
+
+.room1-copy {
+  max-width: 500px;
+  background-color: #d5f298;
+  padding: 1rem;
+}
+
+.room-gallery {
+  max-width: 350px;
+}
+ .room-gallery img {
+   width: 100%;
+ }

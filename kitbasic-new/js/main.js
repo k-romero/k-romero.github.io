@@ -6,6 +6,14 @@ $(document).ready(function(){
     arrows: false,
     draggable: false,
     pauseOnFocus: false,
-    pauseOnHover: false
+    pauseOnHover: false,
+    fade: true,
+    cssEase: 'linear'
   });
+
+});
+
+$('.single-item').slick({
+  arrows: true,
+  fade: true
 });

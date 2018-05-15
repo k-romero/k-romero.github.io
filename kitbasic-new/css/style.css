@@ -1,11 +1,32 @@
 html,
 body {
 font-size: 16px;
-font-family: Montserrat, serif;
-line-height: 1.4;
+font-family: Montserrat, sans-serif;
+line-height: 1.6;
 }
-p {
-  color: grey;
+
+.global-copy-p {
+  font-family: Merriweather, serif;
+  font-size: .8rem;
+  color: #606060;
+}
+
+.global-copy-quote {
+  font-family: Merriweather, serif;
+  font-size: .9rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #414141;
+}
+
+.global-copy-h5 {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.global-copy-link {
+  font-size: .8rem;
+  color: brown;
 }
 /*----NAV----*/
 .brandimgdiv{
@@ -217,26 +238,57 @@ p {
 .rooms {
   padding: 0;
   margin: 2rem auto;
+  max-width: 700px;
+  font-family: Merriweather, serif;
 }
 
 .room1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   padding-bottom: 2rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .room1-copy {
-  max-width: 500px;
-  background-color: #d5f298;
-  padding: 1rem;
+  width: 35%;
+  /* background-color: #d5f298; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  font-size: .8rem;
+}
+
+.room1-copy h5{
+  font-size: .9rem;
+}
+
+.room1-copy a {
+  font-size: .8rem;
+  color: brown;
 }
 
 .room-gallery {
-  max-width: 350px;
+  width: 60%;
 }
  .room-gallery img {
    width: 100%;
- }
+}
+
+/* Begin StayHere */
+
+.stayhere {
+  margin-top: 4rem;
+}
+
+.stayhere-img img{
+  margin-bottom: 1rem;
+}
+
+.stayhere-list {
+  border-top: 1px solid #999999;
+}
+.stayhere-list h5 {
+  padding-top: 1.5rem;
+}

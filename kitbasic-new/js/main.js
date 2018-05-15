@@ -15,5 +15,6 @@ $(document).ready(function(){
 
 $('.single-item').slick({
   arrows: true,
-  fade: true
+  fade: true,
+  dots: true
 });

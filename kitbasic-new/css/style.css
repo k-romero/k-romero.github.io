@@ -24,6 +24,11 @@ line-height: 1.6;
   font-weight: bold;
 }
 
+.global-copy-h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 .global-copy-link {
   font-size: .8rem;
   color: brown;
@@ -38,7 +43,7 @@ line-height: 1.6;
 }
 
 .topnav-div{
-  background-color: #d5f298;
+  /* background-color: #d5f298; */
 }
 
 .topnav a{
@@ -220,7 +225,7 @@ line-height: 1.6;
 }
 
 .main-footer-sec {
-  background-color: #d5f298;
+  /* background-color: #d5f298; */
 }
 
 .main-footer-sec button {
@@ -295,4 +300,55 @@ line-height: 1.6;
 }
 .stayhere-list h5 {
   padding-top: 1.5rem;
+}
+
+/* Begin Reservations */
+
+.booking-room,
+.booking-event {
+  text-align: center;
+}
+
+.booking {
+  max-width: 350px;
+  margin-top: 5rem;
+}
+
+.booking-room {
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 2rem;
+}
+
+.booking-room .global-copy-quote {
+  font-size: .8rem;
+  padding-top: 1rem;
+}
+
+.booking-event {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+
+.policies {
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  line-height: 2;
+  max-width: 900px;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.policies h4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.policies .global-copy-quote {
+  padding-bottom: 1rem;
+}
+
+.policies h5 {
+  padding-top: .5rem;
+  font-weight: bold;
 }

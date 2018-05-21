@@ -14,11 +14,14 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400,700,400i|Montserrat:200,400,400i" rel="stylesheet">
     <!--Slick-->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!--JS-->
-
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
     <title>kit_basic</title>
   </head>
@@ -43,7 +46,7 @@
         <li>
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Experience</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Staying Here</a>
+            <a class="dropdown-item" href="stayhere.html">Staying Here</a>
             <a class="dropdown-item" href="#">Dining</a>
             <a class="dropdown-item" href="#">Nearby</a>
             <a class="dropdown-item" href="#">Testimonials</a>
@@ -72,55 +75,50 @@
       </ul>
     </div>
 <!--End TOPNAV -->
-
-<!--Begin Stay Here-->
-
-    <div class="container stayhere">
+    <div class="container booking">
+      <div class="booking-room">
+        <h4 class="global-copy-h4">Book a room</h4>
+        <p class="global-copy-p">You can book your room by phone (302.555.5555)</br>
+or through our online reservation system:</p>
+        <a class="global-copy-link" href="#">Online reservation system →</a>
+        <p class="global-copy-quote">Prices range from $141 to $209 per night.</p>
+      </div>
+      <div class="booking-event">
+        <h4 class="global-copy-h4">Book an occasion</h4>
+        <p class="global-copy-p"><a class="global-copy-link" href="#">Weddings</a> | <a class="global-copy-link" href="#">Special Occasions</a> | <a class="global-copy-link" href="#">Corporate Events</a></p>
+      </div>
+    </div>
+    <div class="container policies">
+      <h4 class="global-copy-h4">Policies</h4>
       <div class="row">
-        <!--begin empty div for column buffer-->
-        <div class="col-md-1"></div>
-        <!--end empty div for column buffer-->
-        <div class="col-md-4 col-md-offset-1 stayhere-copy">
-          <p class="global-copy-quote">We do everything we can to make you feel at home when you stay at Montchanin. We invite you to take advantage of the whole experience during your overnight stay.</p>
-          <div class="stayhere-list">
-            <h5 class="global-copy-h5">SETTLE IN</h5>
-            <p class="global-copy-p">Check in during your pre-arranged arrival time and head up to your room. Let us know if we can provide you with anything to make your stay more comfortable.</p>
-            <h5 class="global-copy-h5">UNWIND</h5>
-            <p class="global-copy-p">Head down to the winter porch for a glass of complementary wine — if the weather's nice, explore the patio. If not, cozy up by the fire in the library.</p>
-            <h5 class="global-copy-h5">DINE OUT</h5>
-            <p class="global-copy-p">Indulge in dinner out at one of the many restaurants in downtown West Chester, just a mile away. Let us know if you'd like us to make reservations for you prior to your stay.</p>
-            <h5 class="global-copy-h5">REST</h5>
-            <p class="global-copy-p">Head back to Faunbrook for a nice hot shower or soak in the tub, indulge in a good book, and relax. Enjoy a good night's sleep.</p>
-            <h5 class="global-copy-h5">INDULGE</h5>
-            <p class="global-copy-p">Mosey on down for breakfast at 9. We love using local ingredients for a farm-to-table breakfast experience. Early riser? Coffee's ready for you in the dining room at 7:30am. We're happy to accommodate early breakfast requests and dietary restrictions if notified prior to your stay.</p>
-            <h5 class="global-copy-h5">EXPLORE</h5>
-            <p class="global-copy-p">Head out to explore local attractions — restaurants, events, and shopping.</p>
-            <a class="global-copy-link"href="#">Nearby attractions →</a>
-          </div>
+        <div class="col-md-4">
+        <p class="global-copy-quote">Montchanin will make every attempt to be flexible in accommodating all guests' needs</p>
+        <h5 class="global-copy-h5">CHECK-IN & CHECK-OUT</h5>
+        <p class="global-copy-p">Check-in time is 4-8 p.m.</br>Check-out time is 11 a.m.</p>
+        <h5 class="global-copy-h5">CANCELLATIONS</h5>
+        <p class="global-copy-p">Reservations must be secured with a credit card or deposit. Cancellations are billed a 10% administrative fee. If the cancellation occurs less than 72 hours before the stay is to begin, one night's lodging per night booked, including tax, will be charged.</p>
         </div>
-        <div class="col-md-6 stayhere-img">
-          <div class="image-container"><img src="https://static1.squarespace.com/static/550b6889e4b0ff038e443d31/t/5595cfe0e4b03ef082131d82/1435881443989/?format=1000w" alt=""></div>
-          <div class="image-container"><img src="https://static1.squarespace.com/static/550b6889e4b0ff038e443d31/t/5595d0bce4b0d2540b6440bd/1435881662809/?format=1000w" alt=""></div>
-          <div class="image-container"><img src="https://static1.squarespace.com/static/550b6889e4b0ff038e443d31/t/5595d01ae4b0dd603211e6ae/1435881499896/?format=1000w" alt=""></div>
-          <div class="image-container"><img src="https://static1.squarespace.com/static/550b6889e4b0ff038e443d31/t/5595d038e4b0e9cbf6225b69/1435881542481/?format=1000w" alt=""></div>
-          <div class="image-container"><img src="https://static1.squarespace.com/static/550b6889e4b0ff038e443d31/t/5595d061e4b014bac5dcf9a4/1435881571222/?format=1000w" alt=""></div>
-
+        <div class="col-md-4">
+          <h5 class="global-copy-h5">BREAKFAST SCHEDULE</h5>
+          <p class="global-copy-p">Coffee is available at 7:30 a.m. and breakfast is served at 9 a.m., however, we are happy to accommodate early breakfast requests if you let us know before your stay.</p>
+          <h5 class="global-copy-h5">DIETARY RESTRICTIONS</h5>
+          <p class="global-copy-p">Faunbrook gladly accommodates dietary restrictions for breakfast if notified prior to your stay.</p>
+          <h5 class="global-copy-h5">CHILDREN</h5>
+          <p class="global-copy-p">Some parents may find Faunbrook unsuitable for small children. Please discuss details with us.</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="global-copy-h5">SMOKE-FREE</h5>
+          <p class="global-copy-p">Due to the historic nature of the house, smoking is not permitted inside. Guests may smoke outside on the veranda.</p>
+          <h5 class="global-copy-h5">PET-FREE</h5>
+          <p class="global-copy-p">We regret we cannot accept pets but can recommend a "Pet Hotel" to guests.</p>
+          <h5 class="global-copy-h5">DISCOUNTS</h5>
+          <p class="global-copy-p">Receive discounted room prices for multi-night stays! Follow us on Facebook for flash sales and sign up for our e-mails for special offers.</p>
         </div>
       </div>
-
     </div>
 
-
-
-
-
-
-
-
-
-
 <!--Begin Footer Sec-->
-    <div class="container-fluid main-footer-sec">
+    <div class="container main-footer-sec">
       <button class="btn btn-danger"type="button" name="button">Book Your Stay</button>
       <p class="footer-links"><a href="#">Weddings</a> | <a href="#">Special Occasions</a> | <a href="#">Corporate Events</a></p>
       <p class="footer-links">514 Montchanin Rd, Montchanin, Delaware 19710</br><a href="#">montchanin@gmail.com</a> • (302)888-2133 • <a href="#">Subscribe for our email</a></p>
@@ -134,6 +132,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

@@ -374,11 +374,10 @@ line-height: 1.6;
 .contact-div {
   margin-top: 3rem;
   padding-bottom: 3rem;
-  justify-content: center;
 }
 
 .google-map {
-  padding-left: 16px;
+
 }
 
 .border-div {
@@ -386,4 +385,10 @@ line-height: 1.6;
   margin-top: -2rem;
   max-width: 800px;
   border-top: 1px solid #c1c1c1;
+}
+
+@media only screen and (min-width: 900px) {
+  .contact-div{
+    justify-content: center;
+  }
 }

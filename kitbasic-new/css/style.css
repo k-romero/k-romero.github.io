@@ -47,7 +47,7 @@ line-height: 1.6;
 .topnav-div{
   background-color: #d5f298;
   margin-bottom: .5rem;
-  max-width: 80%;
+  max-width: 1160px;
 }
 
 .topnav a{
@@ -76,7 +76,7 @@ line-height: 1.6;
   background-color: cornsilk;
   padding: 0;
   height: 25rem;
-  max-width: 80%;
+  max-width: 1160px;
 }
 
 .jmbtrn{
@@ -157,9 +157,9 @@ line-height: 1.6;
     height: 20rem;
   }
 
-  .jmbtrn-div{
+   .jmbtrn-div{
     height: 20rem;
-    max-width: 95%;
+    max-width: 900px;
   }
 
   .jumbotron-copy {

@@ -45,7 +45,14 @@ line-height: 1.6;
 }
 
 .topnav-div{
-  background-color: #d5f298;
+  /* lightyellow */
+  background-color: #fffcc9;
+  /* palegreen */
+  /* background-color: #d5f298; */
+  /* green */
+  /* background-color: rgba(71, 137, 50, 0.5); */
+  border-top: 2px solid #f9df5c;
+  border-bottom: 2px solid #f9df5c;
   margin-bottom: .5rem;
   max-width: 1160px;
 }
@@ -89,11 +96,11 @@ line-height: 1.6;
 
 
 .background-a{
-  background-image: url("../resources/images/headline/inn-entrance.jpg");
+  background-image: url("../resources/images/headline/barn.jpg");
 }
 
 .background-b{
-  background-image: url("../resources/images/headline/wedding-1.jpg");
+  background-image: url("../resources/images/headline/inn-entrance.jpg");
 }
 
 .background-c{

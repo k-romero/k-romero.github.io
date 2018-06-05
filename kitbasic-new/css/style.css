@@ -398,3 +398,17 @@ line-height: 1.6;
     justify-content: center;
   }
 }
+
+/* Begin About Sec */
+.about-copy,
+.about-img {
+  justify-content: center;
+}
+
+.about-img {
+  margin-bottom: 2rem;
+}
+
+.about-img img {
+  width: 100%;
+}

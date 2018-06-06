@@ -29,6 +29,10 @@ line-height: 1.6;
   font-weight: bold;
 }
 
+.global-copy-h3 {
+  font-family: Merriweather, serif;
+}
+
 .global-copy-link {
   font-size: .8rem;
   color: brown;
@@ -411,4 +415,75 @@ line-height: 1.6;
 
 .about-img img {
   width: 100%;
+  padding-top: .5rem;
+}
+
+.about-copy h4 {
+  padding-bottom: .5rem;
+  padding-top: 1rem;
+}
+
+.about-copy a{
+  margin-bottom: 1rem;
+}
+
+.about-list {
+  list-style: circle;
+  padding-left: 1rem;
+}
+
+.about-list li{
+  font-size: .8rem;
+}
+
+.innkeeper {
+  padding-top: 1.5rem;
+}
+
+/* Begin History Sec */
+
+.history {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.history-img {
+  padding-top: 2.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1rem;
+}
+
+.history-img img{
+  width: 100%;
+}
+
+.history-row-2 {
+  margin-top: 0;
+}
+
+.facts {
+  background-color: cornsilk;
+  border: 1px solid black;
+}
+
+.facts h4 {
+  padding-top: .5rem;
+}
+.facts-list {
+  list-style: decimal;
+  padding-left: .8rem;
+}
+
+.facts-list li {
+  font-family: Merriweather, serif;
+  font-size: .8rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .history-img{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
 }

@@ -561,4 +561,10 @@ line-height: 1.6;
 
 .nearby h3 {
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nearby-img div{
+  margin-bottom: 1rem;
+  height: 15rem;
 }

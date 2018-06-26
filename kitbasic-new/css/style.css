@@ -568,3 +568,17 @@ line-height: 1.6;
   margin-bottom: 1rem;
   height: 15rem;
 }
+
+/* Begin Spa Sec */
+
+.spa {
+  justify-content: center;
+}
+
+.spa img {
+  width: 100%;
+}
+
+.spa h3 {
+  padding-top: 1rem;
+}

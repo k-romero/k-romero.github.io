@@ -1,4 +1,9 @@
 $(document).ready(function(){
+  $('.single-item').slick({
+    arrows: true,
+    fade: true,
+    dots: true
+  });
   $('.slick-carousel').slick({
     slidesToScroll: 1,
     autoplay: true,
@@ -10,10 +15,4 @@ $(document).ready(function(){
     fade: true,
     cssEase: 'linear'
   });
-  $('.single-item').slick({
-    arrows: true,
-    fade: true,
-    dots: true
-  });
-
 });

@@ -10,11 +10,10 @@ $(document).ready(function(){
     fade: true,
     cssEase: 'linear'
   });
+  $('.single-item').slick({
+    arrows: true,
+    fade: true,
+    dots: true
+  });
 
-});
-
-$('.single-item').slick({
-  arrows: true,
-  fade: true,
-  dots: true
 });

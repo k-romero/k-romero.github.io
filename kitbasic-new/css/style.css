@@ -582,3 +582,20 @@ line-height: 1.6;
 .spa h3 {
   padding-top: 1rem;
 }
+
+.spa-menu-head {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.spamenu {
+  background-color: cornsilk;
+}
+
+.spa-cols td{
+  font-family: Merriweather, serif;
+  font-size: .8rem;
+  color: #606060;
+}

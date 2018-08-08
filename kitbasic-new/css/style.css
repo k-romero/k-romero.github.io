@@ -54,7 +54,7 @@ line-height: 1.6;
 }
 /*----NAV----*/
 .brandimgdiv{
-  max-width: 175px;
+  max-width: 250px;
   margin-top: 1.5rem;
   margin-bottom: .5rem;
 }
@@ -598,4 +598,6 @@ line-height: 1.6;
   font-family: Merriweather, serif;
   font-size: .8rem;
   color: #606060;
+  padding-right: 24px;
+  table-layout:
 }

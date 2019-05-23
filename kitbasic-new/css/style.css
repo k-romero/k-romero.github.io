@@ -298,7 +298,7 @@ line-height: 1.6;
 }
 
 .room1-copy {
-  width: 35%;
+  width: 100%;
   /* background-color: #d5f298; */
   padding-left: 1rem;
   padding-right: 1rem;
@@ -321,7 +321,9 @@ line-height: 1.6;
  .room-gallery img {
    width: 100%;
 }
-
+#room-gallery {
+  padding-top: 16px;
+}
 /* Begin StayHere */
 
 .stayhere {

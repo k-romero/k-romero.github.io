@@ -298,7 +298,7 @@ line-height: 1.6;
 }
 
 .room1-copy {
-  width: 100%;
+  width: 35%;
   /* background-color: #d5f298; */
   padding-left: 1rem;
   padding-right: 1rem;
@@ -321,9 +321,34 @@ line-height: 1.6;
  .room-gallery img {
    width: 100%;
 }
-#room-gallery {
+/*Begin New Room Page*/
+
+.room-row {
   padding-top: 16px;
 }
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.room-copy {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  font-size: .8rem;
+}
+
+.room-copy a{
+  font-size: .8rem;
+  color: brown;
+}
+
+.room-copy h5 {
+  font-size: .9rem;
+}
+
 /* Begin StayHere */
 
 .stayhere {

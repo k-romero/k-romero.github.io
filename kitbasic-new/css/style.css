@@ -63,6 +63,7 @@ line-height: 1.6;
   width: 100%;
 }
 
+
 .topnav-div{
   background-color: #fffcc9;
   border-top: 2px solid #f9df5c;
@@ -79,10 +80,9 @@ line-height: 1.6;
 .topnav li {
   padding-left: 15px;
 }
-.menu-button {
-
+#navMenu {
+  justify-content: center;
 }
-
 /*----Jumbotron----*/
 
 .jmbtrn {

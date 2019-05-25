@@ -64,12 +64,7 @@ line-height: 1.6;
 }
 
 .topnav-div{
-  /* lightyellow */
   background-color: #fffcc9;
-  /* palegreen */
-  /* background-color: #d5f298; */
-  /* green */
-  /* background-color: rgba(71, 137, 50, 0.5); */
   border-top: 2px solid #f9df5c;
   border-bottom: 2px solid #f9df5c;
   margin-bottom: .5rem;
@@ -79,6 +74,13 @@ line-height: 1.6;
 .topnav a{
   color: black;
   font-size: .9rem;
+}
+
+.topnav li {
+  padding-left: 15px;
+}
+.menu-button {
+
 }
 
 /*----Jumbotron----*/

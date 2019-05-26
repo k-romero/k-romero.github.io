@@ -1,0 +1,18 @@
+#navMenu {
+  justify-content: center;
+}
+
+
+
+#dropdownMenu {
+  position: absolute;
+  float: none;
+  top: auto;
+  left: auto;
+
+}
+
+#navLinks {
+justify-content: center;
+flex-direction: row;
+}

@@ -1,5 +1,6 @@
 #navMenu {
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -15,4 +16,21 @@
 #navLinks {
 justify-content: center;
 flex-direction: row;
+flex-flow: column;
+}
+
+#navLinks .nav-link , .menu  {
+  color: white;
+}
+
+#navLinks .nav-link {
+  font-size: 48px;
+}
+
+#navBody {
+  background-image: url(images/gallery-12.jpg);
+  background-size:  cover;
+  background-position: center;
+  min-height: 400px;
+  width: auto;
 }

@@ -5,6 +5,16 @@ font-family: Montserrat, sans-serif;
 line-height: 1.6;
 }
 
+/* COLORS
+    red: #af4426
+    red-light: #d1502b
+    yellow: #fffcc9
+    yellow-dark: #f9df5c
+    yellow-alt: #f9e686
+    black/text: #6b6b6b
+    grey: #414141
+*/
+
 .global-copy-p {
   font-family: Merriweather, serif;
   font-size: .8rem;
@@ -31,7 +41,7 @@ line-height: 1.6;
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 300;
-  color: brown;
+  color: #af4426;
 }
 
 .global-copy-h5 {
@@ -50,7 +60,7 @@ line-height: 1.6;
 
 .global-copy-link {
   font-size: .8rem;
-  color: brown;
+  color: #af4426;
 }
 /*----NAV----*/
 .brandimgdiv{
@@ -124,10 +134,8 @@ line-height: 1.6;
   font-family: Merriweather, serif;
   font-weight: 300;
   line-height: 1rem;
-}
-
-.main-footer-sec {
-  /* background-color: #d5f298; */
+  /* border-top: 2px solid #f9df5c; */
+  /* background-color: #fffcc9; */
 }
 
 .main-footer-sec a {
@@ -135,7 +143,7 @@ line-height: 1.6;
 }
 
 .footer-links a{
-  color: #b72c05;
+  color: #af4426;
 }
 
 /* ----Bootstrap Override---- */
@@ -155,9 +163,14 @@ line-height: 1.6;
 
 
 .btn-danger {
-  background-color: #b72c05;
+  background-color: #af4426;
   box-shadow: 2px 4px 3px lightgrey;
   font-family: Merriweather, serif;
+  border-color: #af4426;
+}
+
+.btn-danger:hover {
+  background-color: #d1502b;
 }
 
 /*----Social Media Icons---*/
@@ -361,7 +374,6 @@ line-height: 1.6;
 
 .room1-copy {
   width: 35%;
-  /* background-color: #d5f298; */
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
@@ -600,7 +612,6 @@ line-height: 1.6;
 }
 
 .review {
-  /* background-color: cornsilk; */
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;

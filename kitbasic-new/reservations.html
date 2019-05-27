@@ -8,122 +8,130 @@
     <link rel="stylesheet" href="css/reset.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!--FontAwesome-do I even need this?-->
+    <!--FontAwesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400,700,400i|Montserrat:200,400,400i" rel="stylesheet">
-    <!--Slick-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400,700,400i|Montserrat:200,400,400i,500,600,700" rel="stylesheet">
+    <!-- Slick CSS -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
+
     <!--JS-->
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
-    <title>Inn at Montchanin</title>
+    <title>Inn at Montchanin Village</title>
   </head>
-
   <body>
 <!--Begin TOPNAV -->
+    <div class="container-fluid" id="bookingCallOut">
+      <button type="button" name="button"><a href="reservations.html">Book your stay today→</a></button>
+    </div>
     <div class="container-fluid brandimgdiv">
       <ul class="nav justify-content-center">
-          <li><a href="index.html"><img class="brandimg"src="resources/icons/innlogo.jpg" alt=""></a></li>
+        <li id="navMenu"><a href="index.html"><img class="brandimg"src="resources/icons/innlogo.jpg" alt=""></a></li>
       </ul>
     </div>
-    <div class="container topnav-div">
-      <ul class="nav topnav justify-content-center">
-        <li>
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="about.html">Montchanin</a>
-            <a class="dropdown-item" href="history.html">History</a>
-            <a class="dropdown-item" href="news.html">News & Reviews</a>
-          </div>
-        </li>
-        <li>
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Experience</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="stayhere.html">Staying Here</a>
-            <a class="dropdown-item" href="dining.html">Dining</a>
-            <a class="dropdown-item" href="nearby.html">Nearby</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"href="rooms.html">Rooms</a>
-        </li>
-        <li>
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Event Rentals</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="events.html">Weddings</a>
-            <a class="dropdown-item" href="#">Special Occasions</a>
-            <a class="dropdown-item" href="#">Corporate</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"href="reservations.html">Reservations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"href="spa.html">The Spa</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"href="contact.html">Contact</a>
-        </li>
-      </ul>
+    <div class="container-fluid topnav-div justify-content-center">
+      <nav class="navbar navbar-expand-lg" id="navMenu">
+        <button class="navbar-toggler menu-button" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="menu">-MENU-</span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+          <ul class="navbar-nav topnav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu" id="dropdown-menu">
+                  <a class="dropdown-item" href="about.html">Montchanin</a>
+                  <a class="dropdown-item" href="history.html">History</a>
+                  <a class="dropdown-item" href="news.html">News & Reviews</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Experience</a>
+                <div class="dropdown-menu" id="dropdown-menu">
+                  <a class="dropdown-item" href="stayhere.html">Staying Here</a>
+                  <a class="dropdown-item" href="dining.html">Dining</a>
+                  <a class="dropdown-item" href="nearby.html">Nearby</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="rooms.html">Rooms</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Event Rentals</a>
+                <div class="dropdown-menu" id="dropdown-menu">
+                  <a class="dropdown-item" href="events.html">Weddings</a>
+                  <a class="dropdown-item" href="#">Special Occasions</a>
+                  <a class="dropdown-item" href="#">Corporate</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="reservations.html">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="spa.html">The Spa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 <!--End TOPNAV -->
-    <div class="container booking">
-      <div class="booking-room">
-        <h4 class="global-copy-h4">Book a room</h4>
-        <p class="global-copy-p">You can book your room by phone (302.555.5555)</br>
-or through our online reservation system:</p>
-        <a class="global-copy-link" href="#">Online reservation system →</a>
-        <p class="global-copy-quote">Prices range from $141 to $209 per night.</p>
-      </div>
-      <div class="booking-event">
-        <h4 class="global-copy-h4">Book an occasion</h4>
-        <p class="global-copy-p"><a class="global-copy-link" href="#">Weddings</a> | <a class="global-copy-link" href="#">Special Occasions</a> | <a class="global-copy-link" href="#">Corporate Events</a></p>
-      </div>
+
+<div class="container booking">
+  <div class="booking-room">
+    <h4 class="global-copy-h4">Book a room</h4>
+    <p class="global-copy-p">You can book your room by phone (302.555.5555)</br>or through our online reservation system:</p>
+    <a class="global-copy-link" href="#">Online reservation system →</a>
+    <p class="global-copy-quote">Prices range from $141 to $209 per night.</p>
+  </div>
+  <div class="booking-event">
+    <h4 class="global-copy-h4">Book an occasion</h4>
+    <p class="global-copy-p"><a class="global-copy-link" href="#">Weddings</a> | <a class="global-copy-link" href="#">Special Occasions</a> | <a class="global-copy-link" href="#">Corporate Events</a></p>
+  </div>
+</div>
+<div class="container policies">
+  <h4 class="global-copy-h4">Policies</h4>
+  <div class="row">
+    <div class="col-md-4">
+    <p class="global-copy-quote">Montchanin will make every attempt to be flexible in accommodating all guests' needs</p>
+    <h5 class="global-copy-h5">CHECK-IN & CHECK-OUT</h5>
+    <p class="global-copy-p">Check-in time is 4-8 p.m.</br>Check-out time is 11 a.m.</p>
+    <h5 class="global-copy-h5">CANCELLATIONS</h5>
+    <p class="global-copy-p">Reservations must be secured with a credit card or deposit. Cancellations are billed a 10% administrative fee. If the cancellation occurs less than 72 hours before the stay is to begin, one night's lodging per night booked, including tax, will be charged.</p>
     </div>
-    <div class="container policies">
-      <h4 class="global-copy-h4">Policies</h4>
-      <div class="row">
-        <div class="col-md-4">
-        <p class="global-copy-quote">Montchanin will make every attempt to be flexible in accommodating all guests' needs</p>
-        <h5 class="global-copy-h5">CHECK-IN & CHECK-OUT</h5>
-        <p class="global-copy-p">Check-in time is 4-8 p.m.</br>Check-out time is 11 a.m.</p>
-        <h5 class="global-copy-h5">CANCELLATIONS</h5>
-        <p class="global-copy-p">Reservations must be secured with a credit card or deposit. Cancellations are billed a 10% administrative fee. If the cancellation occurs less than 72 hours before the stay is to begin, one night's lodging per night booked, including tax, will be charged.</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="global-copy-h5">BREAKFAST SCHEDULE</h5>
-          <p class="global-copy-p">Coffee is available at 7:30 a.m. and breakfast is served at 9 a.m., however, we are happy to accommodate early breakfast requests if you let us know before your stay.</p>
-          <h5 class="global-copy-h5">DIETARY RESTRICTIONS</h5>
-          <p class="global-copy-p">Faunbrook gladly accommodates dietary restrictions for breakfast if notified prior to your stay.</p>
-          <h5 class="global-copy-h5">CHILDREN</h5>
-          <p class="global-copy-p">Some parents may find Faunbrook unsuitable for small children. Please discuss details with us.</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="global-copy-h5">SMOKE-FREE</h5>
-          <p class="global-copy-p">Due to the historic nature of the house, smoking is not permitted inside. Guests may smoke outside on the veranda.</p>
-          <h5 class="global-copy-h5">PET-FREE</h5>
-          <p class="global-copy-p">We regret we cannot accept pets but can recommend a "Pet Hotel" to guests.</p>
-          <h5 class="global-copy-h5">DISCOUNTS</h5>
-          <p class="global-copy-p">Receive discounted room prices for multi-night stays! Follow us on Facebook for flash sales and sign up for our e-mails for special offers.</p>
-        </div>
-      </div>
+    <div class="col-md-4">
+      <h5 class="global-copy-h5">BREAKFAST SCHEDULE</h5>
+      <p class="global-copy-p">Coffee is available at 7:30 a.m. and breakfast is served at 9 a.m., however, we are happy to accommodate early breakfast requests if you let us know before your stay.</p>
+      <h5 class="global-copy-h5">DIETARY RESTRICTIONS</h5>
+      <p class="global-copy-p">Faunbrook gladly accommodates dietary restrictions for breakfast if notified prior to your stay.</p>
+      <h5 class="global-copy-h5">CHILDREN</h5>
+      <p class="global-copy-p">Some parents may find Faunbrook unsuitable for small children. Please discuss details with us.</p>
     </div>
+    <div class="col-md-4">
+      <h5 class="global-copy-h5">SMOKE-FREE</h5>
+      <p class="global-copy-p">Due to the historic nature of the house, smoking is not permitted inside. Guests may smoke outside on the veranda.</p>
+      <h5 class="global-copy-h5">PET-FREE</h5>
+      <p class="global-copy-p">We regret we cannot accept pets but can recommend a "Pet Hotel" to guests.</p>
+      <h5 class="global-copy-h5">DISCOUNTS</h5>
+      <p class="global-copy-p">Receive discounted room prices for multi-night stays! Follow us on Facebook for flash sales and sign up for our e-mails for special offers.</p>
+    </div>
+  </div>
+</div>
+
 
 <!--Begin Footer Sec-->
-    <div class="container main-footer-sec">
+    <div class="container-fluid main-footer-sec">
       <a href="reservations.html" class="btn btn-danger">Book your stay</a>
+      <p class="footer-links"><a href="https://www.facebook.com/InnatMontchanin"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com/innatmontchaninvillage"><i class="fab fa-instagram"></i></a></p>
       <p class="footer-links"><a href="#">Weddings</a> | <a href="#">Special Occasions</a> | <a href="#">Corporate Events</a></p>
       <p class="footer-links">514 Montchanin Rd, Montchanin, Delaware 19710</br><a href="#">montchanin@gmail.com</a> • (302)888-2133 • <a href="#">Subscribe for our email</a></p>
-      Website by <a href="kromero.com/kr">Kevin Romero</a>
+      <p class="footer-links">Website by <a href="kromero.com">KAR</a></p>
     </div>
-
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

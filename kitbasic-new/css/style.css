@@ -220,10 +220,10 @@ line-height: 1.6;
 }
 
 .jmbtrn-div {
-  background-color: cornsilk;
   padding: 0;
+  padding-top: .5rem;
   height: 25rem;
-  max-width: 1160px;
+  max-width: 970px;
   border-radius: 20px;
 }
 
@@ -338,6 +338,7 @@ line-height: 1.6;
   font-family: Merriweather, serif;
   padding-bottom: 3rem;
   padding-top: 3.5rem;
+  max-width: 1010px;
 }
 
 .event {

@@ -81,7 +81,7 @@ line-height: 1.6;
   margin-bottom: .5rem;
   /* max-width: 1160px; */
   box-shadow: 2px 2px 3px lightgrey;
-  box-sizing: content-box;
+
 }
 
 .topnav a{
@@ -125,6 +125,12 @@ line-height: 1.6;
   color: black;
 }
 
+@media only screen and (max-width: 900px) {
+  .topnav-div {
+    box-sizing: content-box;
+  }
+}
+
 /* Main Footer Sec */
 
 .main-footer-sec {
@@ -148,6 +154,10 @@ line-height: 1.6;
 }
 
 /* ----Bootstrap Override---- */
+
+.container {
+  max-width: 1200px;
+}
 
 .dropdown-toggle::after {
     display:none;
@@ -182,6 +192,15 @@ line-height: 1.6;
   text-shadow: 2px 4px 3px lightgrey;
 }
 
+/* ---- Facebook Plugin ---- */
+.fb-page {
+  min-height: 700px;
+}
+
+.fbContainer {
+  width: 300px;
+}
+
 /*----Jumbotron----*/
 
 .jmbtrn {
@@ -204,6 +223,7 @@ line-height: 1.6;
   padding: 0;
   height: 25rem;
   max-width: 1160px;
+  border-radius: 20px;
 }
 
 .jmbtrn{
@@ -260,6 +280,18 @@ line-height: 1.6;
   line-height: 1.4rem;
   padding-top: .7rem;
   padding-bottom: .6rem;
+}
+
+.ribbon {
+  width: 100%;
+}
+
+#ribbon {
+  z-index: 1;
+  position: absolute;
+  top: auto;
+  padding: 0;
+  margin-top: -1px;
 }
 
 /*jumbotron media queries*/

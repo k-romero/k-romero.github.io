@@ -222,13 +222,14 @@ line-height: 1.6;
 .jmbtrn-div {
   padding: 0;
   padding-top: .5rem;
-  height: 25rem;
+  height: 28rem;
   max-width: 970px;
   border-radius: 20px;
 }
 
 .jmbtrn{
   opacity: .9;
+  height: 28rem;
 }
 
 .jumbotron-copy {
@@ -310,6 +311,9 @@ line-height: 1.6;
   .topnav-div {
     max-width: 100%;
   }
+  .event-copy {
+    padding-top: 1rem;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -369,7 +373,7 @@ line-height: 1.6;
 }
 
 .event .image-container{
-  height: 14rem;
+  height: 12rem;
 }
 
 .image-container img {

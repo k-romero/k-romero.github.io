@@ -1,0 +1,46 @@
+
+header {
+  width: 100%;
+  padding-top: 12px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: lightgrey;
+}
+header h1 {
+  color: white;
+  text-shadow: 1px 1px 1px grey;
+  font-family: sans-serif;
+  font-size: 36px;
+  margin-left: 12px;
+}
+header a img {
+  max-width: 28px;
+  height: auto;
+  margin-top: -6px;
+}
+header a {
+  margin-left: 16px;
+}
+header ul {
+  width: 400px;
+  margin-right: 16px;
+  background-color: lightgrey;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+header ul a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+header button {
+  margin-bottom: 12px;
+  margin-right: 12px;
+  display: none;
+}

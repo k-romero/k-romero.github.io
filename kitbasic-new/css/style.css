@@ -13,6 +13,7 @@ line-height: 1.6;
     yellow-alt: #f9e686
     light-green: #e7ffc9
     green: #c0dba0
+    green-alt: #b6dd87
     black/text: #6b6b6b
     grey: #414141
 */
@@ -794,8 +795,13 @@ line-height: 1.6;
 }
 
 #cardCopy {
+  padding-top: 18px;
   max-width: 85%;
   color: #9bb57c;
   font-family: Merriweather, serif;
   font-weight: bolder;
+}
+
+#cardCopy a {
+  color: #b6dd87;
 }

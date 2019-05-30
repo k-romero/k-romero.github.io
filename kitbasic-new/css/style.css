@@ -786,13 +786,16 @@ line-height: 1.6;
 }
 
 #fbvSection h3 {
-  font-family: Montserrat;
+  font-family: Merriweather, serif;
   color: #6b6b6b;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   text-shadow: 2px 2px 1px #f9e686;
 }
 
 #cardCopy {
   max-width: 85%;
+  color: #9bb57c;
+  font-family: Merriweather, serif;
+  font-weight: bolder;
 }

@@ -11,6 +11,8 @@ line-height: 1.6;
     yellow: #fffcc9
     yellow-dark: #f9df5c
     yellow-alt: #f9e686
+    light-green: #e7ffc9
+    green: #c0dba0
     black/text: #6b6b6b
     grey: #414141
 */
@@ -769,10 +771,28 @@ line-height: 1.6;
   box-shadow: 2px 2px 3px lightgrey;
 }
 
+#cardSection {
+  margin-top: 40px;
+  width: 480px;
+  max-height: 320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7ffc9;
+  border-bottom: 2px solid #c0dba0;
+  box-shadow: 2px 2px 3px lightgrey;
+}
+
 #fbvSection h3 {
   font-family: Montserrat;
   color: #6b6b6b;
   font-size: 18px;
   font-weight: 500;
   text-shadow: 2px 2px 1px #f9e686;
+}
+
+#cardCopy {
+  max-width: 85%;
 }

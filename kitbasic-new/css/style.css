@@ -849,7 +849,6 @@ line-height: 1.6;
 
 /* Style the front side (fallback if image is missing) */
 #flip-card-front {
- background-image: url(../resources/images/gardens/pinkflowers.png);
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
@@ -857,13 +856,12 @@ line-height: 1.6;
  align-items: center;
 }
 
-#spa {
+.flipcardGarden {
+  background-image: url(../resources/images/gardens/pinkflowers.png);
+}
+
+.flipcardSpa {
  background-image: url(../resources/images/spa/flipcardSpa.jpg);
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- display: flex;
- align-items: center;
 }
 
 

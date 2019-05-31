@@ -857,6 +857,15 @@ line-height: 1.6;
  align-items: center;
 }
 
+#spa {
+ background-image: url(../resources/images/spa/flipcardSpa.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ display: flex;
+ align-items: center;
+}
+
 
 /* Style the back side */
 #flip-card-back {

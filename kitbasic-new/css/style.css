@@ -799,19 +799,14 @@ line-height: 1.6;
 #cardCopy {
   padding-top: 18px;
   max-width: 85%;
-  color: #9bb57c;
+  /* color: #9bb57c; */
   font-family: Merriweather, serif;
   font-weight: bolder;
 }
 
 #cardCopy a {
-  color: #b6dd87;
-}
-
-@media only screen and (max-width: 974px) {
-  #fbvSection {
-    margin-top: 40px;
-  }
+  color: #6b6b6b;
+  /* color: #b6dd87; */
 }
 
 
@@ -872,26 +867,38 @@ line-height: 1.6;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e7ffc9;
   border-bottom: 2px solid #c0dba0;
   box-shadow: 2px 2px 3px lightgrey;
   transform: rotateY(180deg);
 }
 
 #flipcardFrontCopy {
- height: 80px;
+ height: 60px;
  width: 100%;
  background-color: rgba(255,255,255, 0.7);
  display: flex;
  justify-content: center;
  align-items: center;
  color: #414141;
- font-family: Merriweather, serif;
- font-style: italic;
+ -webkit-backdrop-filter: blur(5px);
+ backdrop-filter: blur(7px);
 }
 
-#flipcardFrontCopy h2 {
-  font-size: 2rem;
-  font-weight:;
-  color: black;
+.flipcardBackSpa {
+  background-color: #fffcc9;
+  color: #6b6b6b;
+}
+
+.flipcardBackGarden {
+  background-color: #e7ffc9;
+  color: #9bb57c;
+}
+
+@media only screen and (max-width: 974px) {
+  #spaSection {
+    margin-top: 40px;
+  }
+  #cardSection {
+    margin-top: 40px;
+  }
 }

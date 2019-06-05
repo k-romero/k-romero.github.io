@@ -17,9 +17,24 @@
   font-weight: bolder;
   font-size: 36px;
 }
- .container h1 {
+section h1 {
    font-weight: bolder;
    font-style: italic;
    font-size: 100px;
    padding-bottom: 20px;
+ }
+ .red-cube {
+   background: red;
+   margin: 0 auto;
+   display: block;
+   padding: 40px 0;
+   text-align: center;
+   color: #fff;
+   font-size: 40px;
+   font-weight: bold;
+   opacity: 0;
+ }
+
+ .red-cube .show{
+   opacity: 1;
  }

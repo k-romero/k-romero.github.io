@@ -1,3 +1,6 @@
-function myFunction() {
-  setTimeout(function(){ alert("Under Construction"); }, 3000);
-}
+var controller = new ScrollMagic.Controller();
+ var scene = new ScrollMagic.Scene({
+   triggerElement: '.red-cube'
+ })
+ .setClassToggle('.red-cube', 'show')
+ .addTo(controller);

@@ -1,5 +1,5 @@
 .container {
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   background: #f9f9f9;
   font-size: 24px;
@@ -7,10 +7,19 @@
 }
 .parallax {
    background: transparent;
-   padding: 100px 35px;
+   padding: 80px 35px;
+   margin: 40px auto;
 }
 .info {
   z-index: 2;
   position: relative;
   color: white;
+  font-weight: bolder;
+  font-size: 36px;
 }
+ .container h1 {
+   font-weight: bolder;
+   font-style: italic;
+   font-size: 100px;
+   padding-bottom: 20px;
+ }

@@ -52,7 +52,7 @@
   padding: 125px 0;
   border-bottom: 1px black solid;
   opacity: 0;
-  transition: all 2s ease-out;
+  transition: all 1.5s ease-out;
  }
 
  .project.fade-in {

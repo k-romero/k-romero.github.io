@@ -46,15 +46,11 @@
   padding: 125px 0;
   border-bottom: 1px black solid;
   opacity: 0;
-  /* this moves it vertically */
-  /* transform: translateY(50px); */ 
   transition: all 2s ease-out;
  }
 
  .project.fade-in {
    opacity: 1;
-   /* this moves it vertically */
-   /* transform: translateY(0px); */
  }
 
 .project img {

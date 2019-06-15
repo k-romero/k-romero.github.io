@@ -5,6 +5,12 @@
   font-size: 24px;
   padding: 25px;
 }
+
+@media (max-width: 670px) {
+  .container {
+    max-width: 100%;
+  }
+}
 .parallax {
    background: transparent;
    padding: 80px 35px;

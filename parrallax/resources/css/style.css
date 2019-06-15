@@ -35,6 +35,41 @@
    opacity: 0;
  }
 
- /* .red-cube .show{
+ .show{
    opacity: 1;
- } */
+ }
+
+ /* ScrollMagic */
+
+ .project {
+  text-align: center;
+  padding: 125px 0;
+  border-bottom: 1px black solid;
+  opacity: 0;
+  /* this moves it vertically */
+  /* transform: translateY(50px); */ 
+  transition: all 2s ease-out;
+ }
+
+ .project.fade-in {
+   opacity: 1;
+   /* this moves it vertically */
+   /* transform: translateY(0px); */
+ }
+
+.project img {
+  width: 180px;
+  height: 180px;
+}
+
+.project p {
+  max-width: 300px;
+  margin: 0 auto;
+  color: grey;
+  padding: 15px 0;
+}
+
+#project01 h2{
+  color: blue;
+  padding-top: 15px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Components</title>
+  <script src="modal.js"></script>
+</head>
+<body>
+  <header>Up and running</header>
+  <uc-modal>
+    <h1 slot="title">Kevins Modal</h1>
+    <p>Fucking with web components!</p>
+  </uc-modal>
+
+  <script>
+    const modal = document.querySelector('uc-modal');
+    setTimeout(() => {
+      modal.open();
+    }, 3000);
+  </script>
+</body>
+</html>
